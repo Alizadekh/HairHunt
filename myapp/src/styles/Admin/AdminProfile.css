@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.adminprofilepage {
+  display: flex;
+  gap: 40px;
+}
+.adminprofilepage > div:last-child {
+  padding: 23px 0;
+}
+.adminprofilepage > div nav ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.adminprofilepage > div > nav ul li a {
+  color: var(--LightMode-Grey-Grey-600, #000000ad);
+
+  /* Body/B-14-14-500 */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+  text-decoration: none;
+}
+.adminprofilepage > div > nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.adminprofilepage > div > nav ul li a svg {
+  width: 10px;
+}
+
+.editprofile {
+  margin-top: 20px;
+  font-family: "Inter";
+  width: 100%;
+}
+.editprofile > div > div > button {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  background: var(--LightMode-Warning-Warning, #f6b100);
+  border: none;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.editprofile > div > div .mainbusinessprofile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 14px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.123);
+}
+.editprofile > div > div > .mainbusinessprofile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+.editprofile > div > div .additionalInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+.editprofile > div > div .additionalInfo div {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.123);
+  padding: 10px;
+}
+.editprofile > div > div .additionalInfo div p:first-child {
+  font-weight: 700;
+}
+.editprofile > div > div .additionalInfo div:last-child ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+.editprofile > div > div .additionalInfo div:last-child ul li {
+  border-radius: 4px;
+  border: 1px solid
+    var(--LightMode-Danger-Danger-Clarity-20, rgba(248, 40, 90, 0.2));
+  background: var(--LightMode-Danger-Danger-Light, #ffeef3);
+  margin-bottom: 5px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  color: var(--LightMode-Danger-Danger-Active, #d81a48);
+
+  /* Body/B-11-12-500 */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px; /* 109.091% */
+}
+.editmodalofadminprofile {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.editmodalofadminprofile label {
+  background-color: rgba(128, 128, 128, 0.148);
+  padding: 10px;
+  font-family: "Inter";
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.editmodalofadminprofile label:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.editmodalofadminprofile label:last-child p {
+  font-size: 11px;
+  font-style: italic;
+}
+.editmodalofadminprofile label:last-child div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.editmodalofadminprofile label img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.editmodalofadminprofile label input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}

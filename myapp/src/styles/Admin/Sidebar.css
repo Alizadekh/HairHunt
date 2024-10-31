@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.sidebar {
+  width: 15%;
+  padding: 23px;
+  border-right: 1px solid var(--LightMode-Grey-Grey-200, #f1f1f4);
+  background: var(--DarkMode-Coal-Coal-600, #0b0c10);
+  height: 100dvh;
+}
+.sidebar img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.sidebar .sidebar_content div ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 12px;
+}
+.sidebar_content div ul li {
+  padding: 12px 6px;
+  border-radius: 16px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.sidebar_content div ul li:hover {
+  background-color: #f1f1f4;
+}
+.sidebar_content div ul li:hover a {
+  color: #0b0c10;
+}
+.sidebar_content div ul li a {
+  color: var(--DarkMode-Grey-Grey-700, #ffffff);
+
+  /* Body/B-14-14-600 */
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px; /* 100% */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
